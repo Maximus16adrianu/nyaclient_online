@@ -145,6 +145,11 @@
       "visible": false,
       "keybind": 0
     },
+    "AutoAuth": {
+      "toggled": true,
+      "visible": true,
+      "keybind": 0
+    },
     "SafeWalk": {
       "toggled": false,
       "visible": true,
@@ -260,7 +265,7 @@
       "visible": true,
       "keybind": 21
     },
-    "§cPanic": {
+    "ï¿½cPanic": {
       "toggled": false,
       "visible": true,
       "keybind": 0
@@ -300,7 +305,12 @@
       "Alpha": 120.0
     },
     "Trajectories": {
-      "Alpha": 150.0
+      "Red": 0.0,
+      "Green": 255.0,
+      "Blue": 255.0,
+      "Alpha": 150.0,
+      "Line Width": 2.5,
+      "Show Through Walls": true
     },
     "Breadcrumbs": {
       "Red": 255.0,
@@ -327,7 +337,7 @@
       "Steal Pearls": true
     },
     "NameProtect": {
-      "Your Name": "§cMe",
+      "Your Name": "ï¿½cMe",
       "Other Names": "User",
       "All Players": false,
       "SkinProtect": true
@@ -423,6 +433,11 @@
       "Rainbow": true,
       "Startup Sound": true
     },
+    "AutoAuth": {
+      "Auto Register": true,
+      "Auto Login": true,
+      "Monitor Duration": 20.0
+    },
     "AutoPlay": {
       "Death Delay": 500.0,
       "Server": "Hypixel",
@@ -495,7 +510,7 @@
       "Randomization Max": 0.7,
       "Variation Interval Min": 489.0,
       "Variation Interval Max": 879.0,
-      "Raytrace": true,
+      "Through Walls": false,
       "Only Visible": false,
       "Reaction": true,
       "FOV Threshold": 30.0,
